@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaihbav — Applied ML &amp; Backend Engineering</title>
+  <meta name="description" content="Portfolio of applied machine learning and backend engineering projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="wrap">
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header">
+      <div class="identity">
+        <h1 class="name">Vaihbav</h1>
+        <p class="role">Applied ML &amp; backend engineering</p>
+      </div>
+      <nav class="site-nav">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- ============ HERO / TERMINAL DEMO ============ -->
+    <section class="hero">
+      <p class="hero-intro">
+        I build and ship machine learning systems — from fine-tuning models
+        on real data to putting them behind APIs that hold up under load.
+        Below is a live sample of the kind of thing I build.
+      </p>
+
+      <div class="terminal" role="img" aria-label="Sample requests to a content moderation API, each returning a toxic or safe label with a confidence score.">
+        <div class="terminal-bar">
+          <span class="terminal-dot"></span>
+          <span class="terminal-dot"></span>
+          <span class="terminal-dot"></span>
+          <span class="terminal-title">POST /moderate</span>
+        </div>
+        <div class="terminal-body" id="terminal-body"></div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="work" id="work">
+      <div class="section-head">
+        <h2>Work</h2>
+        <p class="section-note">Shipped projects, most recent first.</p>
+      </div>
+
+      <div class="project-list" id="project-list">
+        <!-- Rendered from data.js by script.js -->
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+      <p>
+        I'm focused on applied machine learning — taking a model from a
+        research notebook to something that answers real requests, fast
+        and reliably. That means caring as much about precision on a
+        held-out set as I do about p99 latency once it's behind an API.
+      </p>
+      <p>
+        Currently exploring: NLP classification systems, model serving
+        architecture, and the practical trade-offs between accuracy and
+        throughput in production.
+      </p>
+    </section>
+
+    <!-- ============ CONTACT / FOOTER ============ -->
+    <footer class="site-footer" id="contact">
+      <div class="section-head">
+        <h2>Contact</h2>
+      </div>
+      <ul class="contact-list">
+        <li><a href="https://github.com/vaihbav11" target="_blank" rel="noopener">GitHub ↗</a></li>
+        <li><a href="mailto:hello@example.com">Email</a></li>
+        <li><a href="#" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+      </ul>
+      <p class="footer-note">Built and hosted on GitHub Pages.</p>
+    </footer>
+
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
