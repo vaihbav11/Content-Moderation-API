@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Data & training artifacts
+data/
+train_checkpoints/
+
+# Model weights are large (100MB+) — see README for options on hosting them
+# (Git LFS, HuggingFace Hub, or a cloud bucket) instead of committing raw.
+model_artifacts/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
