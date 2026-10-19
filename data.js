@@ -1,6 +1,6 @@
 /**
  * data.js
- * -------
+ * ------- 
  * Edit this file to add, remove, or update portfolio projects.
  * Each project renders as one row on the site — no HTML editing needed.
  *
