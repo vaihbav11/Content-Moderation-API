@@ -2,7 +2,7 @@
 main.py
 -------
 FastAPI REST API for the Content Moderation model.
-
+ 
 Endpoints:
   POST /moderate        -> classify a single text
   POST /moderate/batch  -> classify a list of texts
