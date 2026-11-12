@@ -19,7 +19,7 @@ from fastapi import FastAPI, HTTPException, status
 from pydantic import BaseModel, Field, field_validator
 
 from model import ContentModerationModel, MAX_TOKENS
-
+ 
 # ---------------------------------------------------------------------------
 # Model lifecycle: load once at startup, reuse for every request.
 # ---------------------------------------------------------------------------
