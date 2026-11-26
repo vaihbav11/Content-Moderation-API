@@ -13,7 +13,7 @@
  *   demo        (string | null)   - link to a live demo, or null if none
  */
 
-const projects = [
+const projects = [ 
   {
     title: "Content Moderation API",
     date: "Mar 2026",
