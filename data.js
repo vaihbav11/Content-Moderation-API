@@ -11,7 +11,7 @@
  *   stack       (array of string) - tech tags shown as pills
  *   code        (string | null)   - link to the GitHub repo
  *   demo        (string | null)   - link to a live demo, or null if none
- */
+ */ 
 
 const projects = [ 
   {
